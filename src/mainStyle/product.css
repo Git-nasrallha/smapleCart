@@ -1,0 +1,34 @@
+.product .card{
+    margin-bottom: 30px;
+    border-radius: 20px;
+    width: 100%;
+   
+}
+.product .card img{
+    border-radius: 20px 20px 0 0;
+} .product .card .card-body a{
+    color: #6e2fa7;
+}
+.product .card .card-body .card-title{
+    text-transform: capitalize;
+    font-size: 14px; font-weight: 500;
+}
+.product .card .card-buuton{
+    display: flex;
+    justify-content: space-around;
+}
+.product .card .card-buuton .card-text{
+    font-weight: bold; 
+    font-size: 20px;
+    color:#777
+}
+.product .card .card-buuton .btn {
+    padding:.375rem 1.75rem;
+}
+.product .card .card-buuton .btn-primary{
+   background-color: #f0c040;
+   border-color: #3333;
+}
+.product .card .card-buuton .btn-primary:hover{
+    border-color:#333
+}

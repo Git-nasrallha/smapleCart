@@ -1,0 +1,42 @@
+.App{
+  display: flex;
+  flex-direction: column;
+}
+.App .App-header{
+  background-color: #203040;
+  color: #fff;
+  margin-bottom: 20px;
+}
+a:hover{
+  color: #f50 !important;
+}
+.App-header .navbar-brand{
+  color: #fff;
+}
+
+footer {
+  background-color: #203040;
+  color: #fff;
+  text-align: center;
+  padding:10px
+}
+
+ .card-buuton{
+  display: flex;
+  justify-content: space-around;
+}
+ .card-buuton .card-text{
+  font-weight: bold; 
+  font-size: 20px;
+  color:#777
+}
+.card-buuton .btn {
+  padding:.375rem 1.75rem;
+}
+.card-buuton .btn-primary{
+ background-color: #f0c040;
+ border-color: #3333;
+}
+ .card-buuton .btn-primary:hover{
+  border-color:#333
+}
